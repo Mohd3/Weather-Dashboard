@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import random
 
 # Load the dataset (replaced with actual live robot data in production)
-data_path = "GlobalWeatherRepository.csv"  # Update if needed
+data_path = "GlobalWeatherRepository.csv"
 df = pd.read_csv(data_path)
 
 robot_types = ["Ocean", "Mountains", "Desert"]
